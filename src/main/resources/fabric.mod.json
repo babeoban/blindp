@@ -1,0 +1,32 @@
+{
+    "schemaVersion": 1,
+    "id": "blindp",
+    "version": "${version}",
+    "name": "blindp",
+    "description": "Ido nothing!",
+    "authors": [
+        "canhvjp"
+    ],
+    "contributors": [],
+    "contact": {
+        "homepage": "https://www.speedrun.com/mc_blindp/",
+        "sources": "https://github.com/canhvjp/blindp-Mod/",
+        "issues": "https://github.com/canhvjp/blindp-Mod/issues"
+    },
+    "license": "MIT",
+    "icon": "assets/blindp/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "me.canhvjp.blindp.blindp"
+        ],
+        "client": [],
+        "server": []
+    },
+    "mixins": [
+        "blindp.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.10.7"
+    }
+}
